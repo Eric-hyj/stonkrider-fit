@@ -89,6 +89,29 @@
       </div>
     </section>
 
+    <section class="comments">
+      <div class="container">
+        <h2>Comments</h2>
+        <p>Share your best runs, tips, and favorite stocks to ride.</p>
+        <div id="giscus_thread"></div>
+        <script src="https://giscus.app/client.js"
+          data-repo="Eric-hyj/stonkrider-fit"
+          data-repo-id="R_kgDOS3sFng"
+          data-category="General"
+          data-category-id="DIC_kwDOS3sFns4C-9jd"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="dark"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
+    </section>
+
     <section class="game-intro">
       <div class="container">
         <h2>What is StonkRider?</h2>
@@ -220,13 +243,6 @@
       </div>
     </section>
 
-    <section class="comments">
-      <div class="container">
-        <h2>Discuss StonkRider</h2>
-        <p>Share your best runs, tips, and favorite stocks to ride.</p>
-        <div id="disqus_thread"></div>
-      </div>
-    </section>
 
     <section class="cta-bottom">
       <div class="container">
@@ -275,22 +291,7 @@
         render((d.rows||[]).map(function(r) { return { ticker: r.ticker, period: r.period, score: Number(r.score||0), player: r.player||'Anonymous' }; }));
       })
       .catch(function() { body.innerHTML = '<div class="lb-loading">Leaderboard temporarily unavailable. Play the game to submit your score!</div>'; });
-  })();  <div id="giscus_thread"></div>
-  <script src="https://giscus.app/client.js"
-    data-repo="Eric-hyj/stonkrider-fit"
-    data-repo-id="R_kgDOS3sFng"
-    data-category="General"
-    data-category-id="DIC_kwDOS3sFns4C-9jd"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="dark"
-    data-lang="en"
-    crossorigin="anonymous"
-    async>
-  </script>
+  })();
 
   function openFullscreen() {
     var el = document.getElementById('gameContainer');
