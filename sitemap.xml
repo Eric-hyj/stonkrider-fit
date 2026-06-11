@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://stonkrider.fit/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stonkrider.fit/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://stonkrider.fit/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://stonkrider.fit/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://stonkrider.fit/ja/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://stonkrider.fit/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://stonkrider.fit/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://stonkrider.fit/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://stonkrider.fit/pt/"/>
+  </url>
+  <url><loc>https://stonkrider.fit/zh/</loc><lastmod>2026-06-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://stonkrider.fit/ko/</loc><lastmod>2026-06-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://stonkrider.fit/ja/</loc><lastmod>2026-06-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://stonkrider.fit/es/</loc><lastmod>2026-06-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://stonkrider.fit/de/</loc><lastmod>2026-06-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://stonkrider.fit/fr/</loc><lastmod>2026-06-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://stonkrider.fit/pt/</loc><lastmod>2026-06-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://stonkrider.fit/privacy/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://stonkrider.fit/terms/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://stonkrider.fit/contact/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+</urlset>
