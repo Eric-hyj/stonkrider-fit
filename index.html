@@ -89,6 +89,34 @@
       </div>
     </section>
 
+    <section class="comments">
+      <div class="container">
+        <h2>Comments</h2>
+        <p>Share your best runs, tips, and favorite stocks to ride.</p>
+        <div id="waline"></div>
+        <script type="module">
+          import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+          init({
+            el: '#waline',
+            serverURL: 'https://waline-beryl-one.vercel.app',
+            lang: 'en',
+            dark: true,
+            emoji: ['//unpkg.com/@waline/emojis@1.2.0/weibo'],
+            imageUploader: false,
+          });
+        </script>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
 
     <section class="game-intro">
       <div class="container">

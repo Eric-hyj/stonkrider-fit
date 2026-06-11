@@ -79,6 +79,34 @@
         </div>
       </div>
     </section>
+
+    <section class="comments">
+      <div class="container">
+        <h2>Comments</h2>
+        <p>Share your best runs, tips, and favorite stocks to ride.</p>
+        <div id="waline"></div>
+        <script type="module">
+          import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+          init({
+            el: '#waline',
+            serverURL: 'https://waline-beryl-one.vercel.app',
+            lang: 'ja',
+            dark: true,
+            emoji: ['//unpkg.com/@waline/emojis@1.2.0/weibo'],
+            imageUploader: false,
+          });
+        </script>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
     <section class="game-intro"><div class="container">
       <h2>StonkRiderとは？</h2>
       <p>StonkRiderは、株式市場のチャートを走行可能なモトクロストラックに変える話題のブラウザゲームです。トレーダーのようにチャートを読むのではなく、ダートバイクレーサーのように走ります。TSLA、NVDA、BTC-USD、GMEなど、任意の株や暗号通貨のティッカーを選ぶと、価格履歴があなたの地形になります。</p><p>インディー開発者Aymeric Dietrichによって作られたStonkRiderは、金融とアーケードゲームの巧妙な融合で話題になりました。大きな価格上昇は急なジャンプ台に、市場暴落は危険な断崖に変わります。変動の激しいミーム株は最もワイルドで混沌としたトラックを作り出します。</p>

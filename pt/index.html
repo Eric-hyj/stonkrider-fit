@@ -79,6 +79,34 @@
         </div>
       </div>
     </section>
+
+    <section class="comments">
+      <div class="container">
+        <h2>Comments</h2>
+        <p>Share your best runs, tips, and favorite stocks to ride.</p>
+        <div id="waline"></div>
+        <script type="module">
+          import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+          init({
+            el: '#waline',
+            serverURL: 'https://waline-beryl-one.vercel.app',
+            lang: 'pt',
+            dark: true,
+            emoji: ['//unpkg.com/@waline/emojis@1.2.0/weibo'],
+            imageUploader: false,
+          });
+        </script>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
     <section class="game-intro"><div class="container">
       <h2>O que é StonkRider?</h2>
       <p>StonkRider é um jogo de navegador viral que transforma gráficos de ações em pistas de motocross pilotáveis. Em vez de ler gráficos como um trader, você os pilota como um corredor de dirt bike. Escolha qualquer ticker — TSLA, NVDA, BTC-USD, GME — e o histórico de preços se torna seu terreno.</p><p>Criado pelo desenvolvedor independente Aymeric Dietrich, StonkRider viralizou por sua mistura inteligente de finanças e jogo arcade.</p>
